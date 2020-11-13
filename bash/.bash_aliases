@@ -47,13 +47,13 @@ alias .....="cd ../../../.."
 
 alias les="less"
 
-if [[ -n $(which youtube-dl 2>/dev/null)]]; then
+if [[ -n $(which youtube-dl 2>/dev/null) ]]; then
     YOUTUBE_DL_COMMAND="youtube-dl -o '%(title)s.%(ext)s'"
     alias ytd="$YOUTUBE_DL_COMMAND"
     alias ytda="$YOUTUBE_DL_COMMAND --extract-audio --audio-format mp3"
 fi
 
-if [[ -n $(which tree 2>/dev/null)]]; then
+if [[ -n $(which tree 2>/dev/null) ]]; then
     tree_default="tree -C -F"
     alias tre="$tree_default -L 1"
     alias tre2="$tree_default -L 2"
