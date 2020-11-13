@@ -132,6 +132,7 @@ cd() {
 # ---------------------
 export GH="https://github.com"
 export GL="https://gitlab.com"
+export LC_ALL="en_US.UTF-8"
 
 # }}}
 
