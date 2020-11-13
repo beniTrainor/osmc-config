@@ -1,0 +1,6 @@
+package manager, package name, description
+apt-get, stow,
+apt-get, tree,
+apt-get, git,
+apt-get, ranger,
+pip3, youtube-dl,
