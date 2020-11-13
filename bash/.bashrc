@@ -36,9 +36,6 @@ if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
 
-# Add ~/bin to PATH
-export PATH="$PATH:/data/data/com.termux/files/home/bin/"
-
 # }}}
 
 # Functions {{{
