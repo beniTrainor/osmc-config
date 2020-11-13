@@ -41,7 +41,7 @@ fi
 # Functions {{{
 # ---------
 
-cd_histfile_path="/data/data/com.termux/files/home/.cd_history"
+cd_histfile_path="/home/osmc/.cd_history"
 cd_histfile_maxlinecount=1000
 
 cd() {
